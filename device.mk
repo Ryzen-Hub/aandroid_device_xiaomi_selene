@@ -152,9 +152,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Aperture
-
-PRODUCT_PACKAGES += \
     GrapheneOSCamera
     
 PRODUCT_PACKAGES += \
@@ -420,8 +417,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek
 
 PRODUCT_PACKAGES += \
-    ApertureOverlaySelene \
-    ApertureQRScannerOverlaySelene \
     CarrierConfigOverlaySelene \
     DialerOverlaySelene \
     FrameworksResOverlaySelene \
